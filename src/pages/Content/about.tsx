@@ -3,28 +3,25 @@ import SectionTitle from '../../components/sectionTitle'
 
 const workExperience = [
   {
-    date: '2014-2018',
-    company: 'Forluz',
-    description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet
-    vulputate tristique quam felis. Id phasellus dui orci vulputate
-    consequat nulla proin. Id sit scelerisque neque, proin bibendum
-    diam.`
+    date: '2019-2021',
+    company: 'Somar Soluções - Support Analyst',
+    description: `Worked as help-desk support for an ERP system in Blumenau/BR, 
+    assisting users and providing consultancy for process improvement and ERP-Banking
+    System integrations.`
   },
   {
-    date: '2014-2018',
-    company: 'Forluz',
-    description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet
-    vulputate tristique quam felis. Id phasellus dui orci vulputate
-    consequat nulla proin. Id sit scelerisque neque, proin bibendum
-    diam.`
+    date: '2021-2022',
+    company: 'UniversalPrev - Jr. Fullstack Developer',
+    description: `Developed websites in the private pension industry using techs
+    like ReactJS, Typescript and Styled-Components, making backend adjustments by
+    MySQL and Maker Tool (flowchart/SQL based).`
   },
   {
-    date: '2014-2018',
-    company: 'Forluz',
-    description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet
-    vulputate tristique quam felis. Id phasellus dui orci vulputate
-    consequat nulla proin. Id sit scelerisque neque, proin bibendum
-    diam.`
+    date: '2022-now',
+    company: 'Forluz - Jr. Mobile Developer',
+    description: `I'm a member of the developer team, making a new version
+    of the mobile app (Android and iOS) for Forluz's users, using techs like React
+    Native, Typescript, Redux and Styled-Components and making new features for it.`
   },
 ]
 
@@ -37,10 +34,14 @@ function About() {
 
           <div className='description font-Poppins font-normal leading-7 text-md'>
             <p className='mt-8' style={{ maxWidth: 700 }}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet
-              vulputate tristique quam felis. Id phasellus dui orci vulputate
-              consequat nulla proin. Id sit scelerisque neque, proin bibendum
-              diam.
+              I'm a Brazilian junior developer, with about two years of experience
+              and currently working as Mobile Developer at Forluz. I have bachelor's
+              degree in System Informations, always looking to build quality
+              applications and websites.
+            </p>
+            <p className='mt-2' style={{ maxWidth: 700 }}>
+              Current stack and technologies: ReactJS and React Native, NextJS,
+              Redux, Typescript and Javascript, Styled-Components, Tailwind, SQL and Git.
             </p>
 
             <ul className='list-disc list-outside pl-10 lg:pl-16' style={{ maxWidth: 800 }}>
@@ -53,7 +54,7 @@ function About() {
                   </div>
                   <p>{work.description}</p>
                 </li>
-              ))}
+              )).reverse()}
             </ul>
           </div>
         </div>

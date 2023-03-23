@@ -1,12 +1,11 @@
 import React from 'react'
 import { Link } from 'react-scroll'
-import file from '../assets/files/resume-2023.pdf'
 
 function Header() {
   return (
     <div className='border-b-2 border-b-custom-sand-300 h-24 max-w-6xl mx-auto'>
       <div className='flex flex-row items-center justify-between h-full px-6'>
-        <span className='text-2xl font-sans font-semibold'>
+        <span className='text-2xl font-sans font-semibold text-custom-gray-700'>
           João F.
         </span>
 
@@ -28,7 +27,7 @@ function Header() {
             Work
           </Link>
           <a
-            href='../assets/files/resume-2023.pdf'
+            href='https://raw.githubusercontent.com/frndsjoao/portfolio/master/src/assets/files/resume-2023.pdf'
             target="_blank"
             className='ml-4 hover:opacity-60 transition duration-300 font-semibold'
           >

@@ -23,9 +23,19 @@ function Footer() {
           <div className='flex-1 text-center mt-6 sm:mt-0'>
             <p> Or get in touch via social media:</p>
             <div className='icons flex flex-row mt-2 items-center justify-center'>
-              <LinkedIn style={{ fontSize: 32 }} />
-              <GitHub className='mx-6' style={{ fontSize: 32 }} />
-              <Instagram style={{ fontSize: 32 }} />
+              <LinkedIn
+                style={{ fontSize: 32, cursor: 'pointer' }}
+                onClick={e => window.open('https://www.linkedin.com/in/frnds-joao/', '_blank')}
+              />
+              <GitHub
+                className='mx-6'
+                style={{ fontSize: 32, cursor: 'pointer' }}
+                onClick={e => window.open('https://github.com/frndsjoao', '_blank')}
+              />
+              <Instagram
+                style={{ fontSize: 32, cursor: 'pointer' }}
+                onClick={e => window.open('https://www.instagram.com/frndsjoao/', '_blank')}
+              />
             </div>
           </div>
         </div>
