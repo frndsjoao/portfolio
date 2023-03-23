@@ -29,7 +29,7 @@ const projectArray = [
 
 function Work() {
   return (
-    <div className='pt-16 text-custom-gray-700 pb-20'>
+    <div id="work-section" className='pt-16 text-custom-gray-700 pb-20'>
       <div className='flex flex-row items-center justify-center max-w-5xl mx-auto px-6 sm:flex-row sm:px-10'>
         <div>
           <SectionTitle title="work" />

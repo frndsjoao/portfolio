@@ -30,7 +30,7 @@ const workExperience = [
 
 function About() {
   return (
-    <div className='py-16 text-custom-gray-700 bg-custom-sand-50'>
+    <div id="about-section" className='py-16 text-custom-gray-700 bg-custom-sand-50'>
       <div className='flex flex-row items-center justify-between max-w-5xl mx-auto px-6 sm:flex-row sm:px-10'>
         <div>
           <SectionTitle title="about" />
