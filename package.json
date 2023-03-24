@@ -2,18 +2,22 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && next export",
     "start": "next start"
   },
   "dependencies": {
+    "-": "^0.0.1",
     "@emotion/react": "^11.10.6",
     "@emotion/styled": "^11.10.6",
     "@mui/icons-material": "^5.11.11",
     "@mui/material": "^5.11.13",
+    "firebase-tools": "^11.25.1",
+    "g": "^2.0.1",
     "next": "latest",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "react-scroll": "^1.8.9"
+    "react-scroll": "^1.8.9",
+    "sharp": "^0.31.3"
   },
   "devDependencies": {
     "@types/node": "18.11.3",

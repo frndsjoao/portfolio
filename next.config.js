@@ -1,4 +1,17 @@
 /** @type {import('next').NextConfig} */
-module.exports = {
+const nextConfig = {
   reactStrictMode: true,
+}
+
+module.exports = nextConfig
+
+module.exports = {
+  images: {
+    loader: 'akamai',
+    path: '',
+    domains: ['instagram.com'],
+  },
+  typescript: {
+    ignoreBuildErrors: true
+  }
 }
