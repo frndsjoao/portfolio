@@ -4,6 +4,7 @@ import AvatarImg from './../../assets/avatar.png'
 import Instagram from '@mui/icons-material/Instagram'
 import GitHub from '@mui/icons-material/GitHub'
 import LinkedIn from '@mui/icons-material/LinkedIn'
+import Head from 'next/head'
 
 function Hero() {
   return (

@@ -7,9 +7,9 @@ module.exports = nextConfig
 
 module.exports = {
   images: {
-    loader: 'akamai',
-    path: '',
-    domains: ['instagram.com'],
+    // loader: 'imgix',
+    // path: 'https://example.com/myaccount/',
+    unoptimized: true
   },
   typescript: {
     ignoreBuildErrors: true
