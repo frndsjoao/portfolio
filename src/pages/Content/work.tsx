@@ -12,7 +12,7 @@ const projectArray = [
     description: `Wedding website created to provide relevant informations to the guests.`,
     techs: ['React', 'NextJS', 'Typescript', 'Sass', 'Nodemailer'],
     url: 'https://www.mariejoao.day/',
-    github: 'https://github.com/frndsjoao/joaoemari-day'
+    github: 'https://joaoemari-day.vercel.app/'
   },
   {
     image: Neverland,
